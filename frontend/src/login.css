@@ -1,0 +1,53 @@
+
+body, html {
+    height: 100vh;
+    margin: 0;   
+}
+#root{
+    height:100%;
+}
+
+.login .bg-dark {
+    background-color: #343a40;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-content {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.login .invalid-feedback {
+    margin-left: 0;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-form input {
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+.result_msg {
+    color: red;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login .btn-flat {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,137 @@
+
+
+.employeeForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40; 
+}
+.employeeForm form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+}
+
+
+
+.employeeForm .form-group {
+    display: flex;
+    flex-direction: column; 
+}
+
+.employeeForm .form-group label {
+    margin-bottom: 5px; 
+}
+
+.employeeForm .form-group input ,.employeeForm .form-group select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da; 
+    transition: border-color 0.3s;
+
+}
+
+.employeeForm input[type="text"]:focus,
+.employeeForm input[type="email"]:focus,
+.employeeForm input[type="password"]:focus,
+.employeeForm input[type="number"]:focus {
+    border-color: #80bdff; 
+    outline: none; 
+}
+
+.employeeForm .employeeFormBtn{
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.employeeFormBtn  {
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    border: none; 
+    background-color: #007bff; 
+    color: white; 
+    border-radius: 4px;
+    cursor: pointer; 
+  }
+  
+  .employeeFormBtn button {
+    background-color: #0056b3;
+  }
+
+
+  .employee .content {
+    padding: 20px;
+    }
+  
+    .employee  h4 {
+    margin-bottom: 20px; 
+    font-size: 24px;
+    color: #333; 
+  }
+  
+  .employee button {
+   
+    padding: 10px 15px; 
+    border: none; 
+    background-color: #007bff; 
+    color: white; 
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .employee button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .employee  .table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+  }
+  
+  .employee .table th, .employee .table td {
+    border: 1px solid transparent; 
+    padding: 12px; 
+    text-align: left;
+  }
+  
+  .employee .table th {
+    background-color: #f2f2f2; 
+    color: #333; 
+    font-weight: bold; 
+  }
+  
+  .employee .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  .employee .table tbody tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .employee .table td button {
+    margin: 0 5px;
+    padding: 5px 10px; 
+    background-color: #007bff; 
+    border-radius: 4px; 
+  }
+  
+  .employee .table td button:nth-child(2) {
+    background-color: #007bff;
+  }
+  
+  .employee .table td button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .employee .table td button:nth-child(2):hover {
+    background-color: #0056b3; 
+  }
+  .employee button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.employee .pagination{
+    flex-direction: column;
+}
+  

@@ -1,0 +1,87 @@
+.leave-management {
+    padding: 20px;
+  }
+  
+  .leave-management h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .leave-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .leave-management table th,
+  .leave-management table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leave-management table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .leave-management table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .leave-management table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .leave-management select {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .leave-management button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .leave-management button:hover {
+    background-color: #0056b3;
+  }
+  
+  .leave-management .actions select {
+    margin-right: 10px;
+  }
+  
+  .leave-management .actions button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .leave-management .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .pagination{
+    flex-direction:column
+  }
+  .leave-management button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

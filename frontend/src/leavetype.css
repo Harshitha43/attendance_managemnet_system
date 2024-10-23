@@ -1,0 +1,99 @@
+
+
+.leaveType h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.leaveType table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.leaveType table th,
+.leaveType table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.leaveType table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.leaveType table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.leaveType .edit,.leaveType .addLeave {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.leaveTypea:hover {
+    background-color: #0056b3;
+}
+
+.leaveType button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.leaveType button:hover {
+    background-color: #007bff;
+}
+
+.leaveType button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+}
+
+.leaveType .card{
+    border:0;
+}
+.leaveType h4 {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.leaveType label {
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+
+.leavetypeForm input[type="text"] {
+    width:100%;
+    padding: 8px;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+.leavetypeForm{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.leaveType .pagination{
+    flex-direction: column;
+}
+

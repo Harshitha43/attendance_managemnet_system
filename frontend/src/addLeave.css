@@ -1,0 +1,68 @@
+.addLeave {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addLeave div {
+    margin-bottom: 20px;
+}
+
+.addLeave h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.addLeave label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.addLeave input[type="text"],
+.addLeave input[type="date"],
+.addLeave select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.addLeave button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addLeave button:hover {
+    background-color: #0056b3;
+}
+
+.addLeave p {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.addLeave .error-message {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
